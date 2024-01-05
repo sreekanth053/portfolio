@@ -1,0 +1,115 @@
+.projects-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+  }
+  
+  .project-name {
+    font-size: 18px;
+    color: #f3d9a6;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 2px;
+  }
+  .description{
+    font-size: 18px;
+    color: #f3d9a6;
+    font-weight: bold;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 2px;
+  }
+  
+  .project-img {
+    /* width: 80%; */
+    /* cursor: pointer; */
+    height: 40vh;
+    margin-left: -12px;
+  }
+  
+  .anchor-txt {
+    color: #f3d9a6;
+    margin-top: 0px;
+    font-size: 12px;
+    padding-left: 20px;
+    /* background-color: #f3d9a6; */
+    text-decoration: none;
+  }
+  .button{
+    padding-left: 25px;
+  }
+  
+  .e-link {
+    margin-left: 3px;
+    /* margin-top: 30px; */
+    /* padding-top: 10px; */
+    padding-left: 20px;
+  }
+  
+  .button {
+    background-color: transparent;
+    /* background-color: red; */
+    border-width: 0px;
+    /* color: #00adb5; */
+    color: lightblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: -5px;
+    cursor: pointer;
+  }
+  
+  .tech-stack-container {
+    /* background-color: #fff; */
+    margin: 2px 20px;
+    margin-bottom: 10px;
+    /* margin-left: 3px; */
+    /* margin-top: -7px; */
+  }
+  
+  .tech-stack-title {
+    font-size: 11px;
+    font-weight: bold;
+    /* color: lightblue; */
+    color: lightgray;
+  }
+  
+  .tech-txt {
+    font-size: 10px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-bottom: -25px;
+    background-color: #393e46;
+    border: 1px dotted lightgray;
+    padding: 3px 12px;
+    border-radius: 15px;
+    color: white;
+    margin-right: 4px;
+    margin-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  }
+  @media (max-width:425px) {
+    .projects-container {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: start;
+      margin-bottom: 20px;
+      padding-left: 5px;
+      padding-right: 50px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    } 
+  }

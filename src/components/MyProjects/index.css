@@ -1,0 +1,26 @@
+.projects-list-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  /* Add your responsive styles based on media queries */
+@media (max-width: 425px) {
+  /* Example: Adjust styles for smaller screens */
+  .projects-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+}
+
+  .my-projects-container {
+    margin-top: 50px;
+  }
+  .empty-div{
+    padding-bottom: 50px;
+  }
+  

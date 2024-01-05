@@ -1,0 +1,126 @@
+/* ProjectForm.css */
+.project-container {
+    list-style-type: none;
+    margin-left: 0px;
+    /* justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+  }
+
+  .projects-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    /* justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+  }
+
+.project-form {
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right:80px ;
+  }
+  
+  .project-form label {
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
+  .project-form input,
+  .project-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .project-name {
+    font-size: 18px;
+    color: #f3d9a6;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 2px;
+  }
+  .description{
+    font-size: 18px;
+    color: #f3d9a6;
+    font-weight: bold;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 2px;
+  }
+.home-name{
+    padding-bottom: 40px;
+}
+  .anchor-txt {
+    color: #f3d9a6;
+    margin-top: 0px;
+    font-size: 12px;
+    padding-left: 20px;
+    /* background-color: #f3d9a6; */
+    text-decoration: none;
+  }
+  .button{
+    padding-left: 25px;
+  }
+
+  .project-img {
+    /* width: 80%; */
+    /* cursor: pointer; */
+    height: 40vh;
+    margin-left: -12px;
+    text-align: center;
+  }
+  .project-image {
+    /* width: 80%; */
+    /* cursor: pointer; */
+    height: 40vh;
+    margin-left: -12px;
+    text-align: center;
+  }
+  .project-card{
+    margin-right:50px;
+  }
+
+  @media (max-width:425px) {
+    .project-img {
+        /* width: 75%; */
+        cursor: pointer;
+        /* height: 10vh; */
+        margin-left: 12px;
+        text-align: center;
+        align-items: center;
+        padding-left: 33px;
+      }
+      .project-image{
+        /* width: 75%; */
+        cursor: pointer;
+        height: 40vh;
+        margin-left: 12px;
+        text-align: center;
+        align-items: center;
+        padding-left: 49px;
+      }
+  }

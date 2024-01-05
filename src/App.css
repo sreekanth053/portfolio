@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.scroll-content{
+  /* background-image: url("https://res.cloudinary.com/dt0iyjopp/image/upload/v1680429566/technology_1_d83hrr.jpg");*/
+  background-image: radial-gradient(#584fdd,#0f65e6);
+  background-size:cover;
+
+}
+
+@media (prefers-reduced-motion: no-preference) and (max-width:425px) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .scroll-content{
+    /* background-image: url("https://res.cloudinary.com/dt0iyjopp/image/upload/v1680429566/technology_1_d83hrr.jpg");*/
+    background-image: radial-gradient(#584fdd,#0f65e6);
+    background-size:cover;
+    width: 150%;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Vinyl");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Yeon+Sung");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Prompt");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One");
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.portfolio-website-container {
+  /* padding-right: 20px;
+  padding-left: 30px; */
+  padding-top: 0px;
+  background-color: #0f2545;
+  /* background-image: linear-gradient(#0F2545, #14325E); */
+  min-height: 100vh;
+}
+
+.developed-text {
+  font-family: "Quicksand";
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  background-color: #393e4675;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 0.3px solid lightgray;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+}
+
+.left-padding {
+  padding-left: 40px;
+  font-family: "Rubik Vinyl";
+  /* font-weight: bold; */
+  font-size: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
